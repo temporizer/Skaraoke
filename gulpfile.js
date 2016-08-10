@@ -8,7 +8,6 @@ var concatCss = require('gulp-concat-css');
 var cleanCSS = require('gulp-clean-css');
 var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
-var rename = require('gulp-rename');
 var watch = require('gulp-watch');
 var autoprefixer = require('gulp-autoprefixer');
 
