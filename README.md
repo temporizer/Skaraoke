@@ -1,5 +1,10 @@
 # Skaraoke
 
+## Getting Started
+1. Clone latest master branch
+2. Run `npm install`
+3. Win.
+
 ##TODO'S
 1. Implement Gulp w/ Following Packages
 	- Stylus
