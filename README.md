@@ -6,7 +6,7 @@
 3. Win.
 
 ##TODO'S
-1. Implement Gulp w/ Following Packages
+1. ~~Implement Gulp w/ Following Packages~~
 	- Stylus
 	- Concat
 	- Concat CSS
