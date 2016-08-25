@@ -23,9 +23,15 @@
 	- CRUD Class
 	- Helper Functions
 	- Etc...
-4. Brainstorm Functionality
+4. Functionality Wishlist
 	- Random Song
 	- Wheel, of, DOOOOOOOM!!!
-	- Etc...
+	- Spotify Integrations
+	    - OAuth
+	    - Playlist data
+	- Duet, of, DOOOOOOOM!!! (random people & song)
+    
+
+
 
 If you can't tell I really needed something to work on :P
