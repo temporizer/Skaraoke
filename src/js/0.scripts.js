@@ -1,7 +1,5 @@
 /* scripts */
 
-(function($){
-    
     // menu button state toggle
     $("#nav-toggle").on('click', function(e){
         var icon = '';
@@ -15,5 +13,3 @@
     $('#gangsta-wrappa').animate('margin-top', headerHeight + 'px');
     
     
-    
-})(jQuery); /* global jQuery */
