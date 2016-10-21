@@ -22,7 +22,7 @@
     var result = document.getElementById('result');
     
     var Songs = {
-        // just stores the songs in a global variable, yea, I'm fucking lazy
+        // just stores the songs in a "global" variable, yea, I'm fucking lazy
         getRawSongData: function() {
             $.ajax({
                 async: false,
@@ -43,6 +43,7 @@
                 var randIdx = getRandomNumber(0, songRawData.length - 1);
                 var artist = Songs.fixNames(songRawData[randIdx]['artist']);
                 var songTitle = Songs.fixSongTitle(songRawData[randIdx]['title']);
+                
                 result.innerHTML = songTitle + ' - ' + artist;
                 
                 Songs.log(songTitle);
