@@ -29,7 +29,7 @@ gulp.task('stylus', function() {
 
 // Concatenate & Minify JS
 gulp.task('scripts', function() {
-    return gulp.src('src/js/*.js')
+    return gulp.src('src/js/**/*.js')
         //.pipe(concat('scripts.dev.js'))
         //.pipe(gulp.dest(''))
         .pipe(rename('scripts.min.js'))

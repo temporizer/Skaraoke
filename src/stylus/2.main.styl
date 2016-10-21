@@ -1,9 +1,18 @@
 #main-header 
-    padding 2.5% 3% 3%
+    position absolute
+    top 0
+    left 0
+    right 0
     background-color #F50057
     overflow hidden
+    transition height .3s ease
+    transform translateZ(0)
+    z-index 100
+#main-header, #gangsta-wrappa
+    padding 3%
 h2#logo 
     font-family 'Permanent Marker'
+    font-size 72px
     font-size 6vmax
     color #fff
     float left
@@ -12,8 +21,21 @@ h2#logo
     background none
     border none
     outline none
-    margin-top .5%
+    margin-top .3%
     .material-icons
         font-size 6vmax
         color #fff
-
+#main-navigation
+    display none
+    clear both
+    border-top 1px solid #fff
+    ul
+        padding-top: 3%
+        font-size 25px
+        text-align center
+    li a
+        display block
+        color #fff
+        padding 1.5% 0
+        text-transform uppercase
+        text-decoration none
